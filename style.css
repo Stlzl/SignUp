@@ -63,6 +63,7 @@ body {
     border-bottom-color: gray;
     border-bottom-width: 1px;
     background: none;
+    transition: all ease-out 0.3s;
 }
 
 .inputInfo:focus {
