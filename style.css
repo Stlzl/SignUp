@@ -4,19 +4,20 @@
     font-family: 'Roboto Mono', monospace;
     padding: 0px;
     margin: 0px;
+    font-weight: bold;
 }
 
 body {
-    background-image: url(img/good-waves.gif);
+    background-image: url(img/background.jpg);
     background-size: cover;
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.85);
     padding : 16px;
     margin : auto;
     width: 20%;
-    border-radius: 16px;
+    border-radius: 0px;
     margin-top: 200px;
     text-align: center;
 }
@@ -29,13 +30,14 @@ body {
 .button {
     color: black;
     background: none;
-    border-color: gray;
     border-width: 1px;
-    border-radius: 12px;
+    border-radius: 0px;
     padding: 8px;
     width: 100px;
     font-size: 16px;
     transition: all ease-out 0.3s;
+    border-color: gray;
+    border-style: solid;
 }
 
 .button:hover {
